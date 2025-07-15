@@ -8,4 +8,6 @@ namespace Lunar{
 		virtual ~Application();
 		void run();
 	};
+
+	Application* Lunar::CreateApplication();
 }

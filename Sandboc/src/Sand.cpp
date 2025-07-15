@@ -9,9 +9,7 @@ public:
 	}
 };
 
-void main() {
-	SandBox* sandbox = new SandBox();
-	sandbox->run();
-	delete sandbox;
-
+Lunar::Application* CreateApplication() {
+	
+	return new SandBox();
 }
